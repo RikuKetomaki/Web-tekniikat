@@ -8,7 +8,7 @@ let second2 = document.querySelector(".basic");
 console.log(second2.tagName);
 
 // 3
-let third = document.querySelector("ul .basic");
+let third = document.querySelector("li");
 console.log(third.textContent);
 
 // 4
