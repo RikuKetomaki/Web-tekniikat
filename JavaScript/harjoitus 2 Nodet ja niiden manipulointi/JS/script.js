@@ -27,3 +27,27 @@ weekdaysList.appendChild(li);
 let turha = document.querySelector("ul li:first-child");
 
 turha.remove();
+
+
+// Advanced
+// 1
+let tiistai = document.querySelector("#content ul li:first-child");
+
+const li2 = document.createElement("li")
+
+const node3 = document.createTextNode("Maanantai");
+li2.appendChild(node3);
+
+
+
+// 3
+let items = document.querySelectorAll("ul:first-child li");
+
+for (item of items) {
+    let text = item.textContent;
+    item.textContent = "";
+
+    let b = document.createElement("b");
+    b.textContent = text;
+    item.appendChild(b);
+}
