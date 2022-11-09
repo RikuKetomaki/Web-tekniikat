@@ -51,3 +51,12 @@ for (item of items) {
     b.textContent = text;
     item.appendChild(b);
 }
+
+//style
+function changeColor() {
+    let elems = document.querySelectorAll("ul:first-child li");
+
+    for (elem of elems) {
+        elem.classList.toggle("colored");
+    }
+}
