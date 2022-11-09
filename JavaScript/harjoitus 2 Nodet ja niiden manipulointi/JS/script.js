@@ -60,3 +60,13 @@ function changeColor() {
         elem.classList.toggle("colored");
     }
 }
+
+function changeSize() {
+    let elements = document.querySelectorAll("li");
+
+    for (const e of elements) {
+        if (e.textContent.length < 10) {
+            e.classList.add("sizeup");
+        }
+    }
+}
