@@ -1,3 +1,12 @@
+@font-face {
+    font-family: "Rubik";
+    src: url(../Rubik_Microbe/RubikMicrobe-Regular.ttf);
+}
+
+body {
+    font-family: "Rubik";
+}
+
 .col {
     background: blue;
     color: white;
