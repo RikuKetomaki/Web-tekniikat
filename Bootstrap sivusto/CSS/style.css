@@ -1,0 +1,10 @@
+body {
+    margin: 0px;
+    background-color: rgb(57, 56, 61);
+}
+
+
+
+.container-fluid {
+    width: 100vw;
+}
