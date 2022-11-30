@@ -7,6 +7,9 @@ body {
     width: 100vw;
 }
 
+/* Etusivu starts here */
+
+/* Carousel starts here */
 #carousel {
     width: 100vw;
     text-align: center;
@@ -27,3 +30,30 @@ body {
     opacity: 85%;
     border-radius: 15px;
 }
+/* Carousel ends here */
+/* Buttons start here */
+.etusivu-buttons {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.btn {
+    width: 150px;
+    border: 1px solid black;
+    background-color: rgb(39, 39, 39);
+}
+
+
+#leftButton {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+#rightButton {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+/* Buttons ends here */
+
+/* Etusivu ends here */
