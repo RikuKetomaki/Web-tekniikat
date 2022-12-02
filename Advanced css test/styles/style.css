@@ -1,0 +1,84 @@
+/* Nämä tyylimääreet kohidstuvat kaikkiin elementteihin bodyn sisällä */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Nämä tyylimääritteet kohidstuvat kaikkiin elementteihin */
+* {
+    color: black;
+}
+
+ul.beige {
+    padding: 5px;
+    background-color: bisque;
+}
+
+ul.navbar{
+    padding: 5px;
+    display: block;
+}
+
+/* Kaikille li - elementeille */
+.navbar > li {
+/* >-merkki käytännössä ei eroa laittaa näkyviin tai ei */
+    /* li-elementit on oletuksena blokkeja -> muutetaan inlineksi, jotta saadaan samalle riville */
+    display: inline;
+    border-right: 1px solid black;
+}
+
+.navbar li:last-child {
+    border-right: none;
+}
+
+
+a {
+    padding: 5px;
+    text-decoration: none;
+}
+
+a, p {
+    color: green;
+}
+
+a:hover {
+    color: blue;
+}
+
+.navbar a {
+    padding: 5px;
+}
+
+.beige {
+    background-color: bisque;
+}
+
+/* + sisar elementti */
+ul + p {
+    border-top: 1px solid black;
+}
+
+/* ~ kaikki ul elementin sisar elementit p */
+ul ~ p {
+    color: red;
+}
+
+[target="_blank"] {
+    background-color: yellow;
+}
+
+.col {
+    border: 1px dashed darkmagenta;
+}
+
+[class^="box"] {
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+tr:nth-child(even) {
+    background-color: antiquewhite;
+}
