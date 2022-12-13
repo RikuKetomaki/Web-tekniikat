@@ -68,16 +68,25 @@ body {
 
 .card {
     margin: 30px; 
-    background-color: rgb(212, 212, 212);
+    background-color: rgb(39, 39, 39);
     height: 100%;
 }
 
+.card p, h5 {
+    color: white;
+}
+
+.card h5 {
+    padding-bottom: 15px;
+}
 
 
 
 /* Koulutussivu ends here */
 
 /* Responsiivisuus */
+
+/* Koulutus */
 @media only screen and (max-width: 768px) {
     .card img {
         display: none;
