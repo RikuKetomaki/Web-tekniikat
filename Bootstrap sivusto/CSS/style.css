@@ -57,3 +57,29 @@ body {
 /* Buttons ends here */
 
 /* Etusivu ends here */
+
+/* Koulutussivu starts here */
+.main {
+    display: flex;
+    width: 100vw;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.card {
+    margin: 30px; 
+    background-color: rgb(212, 212, 212);
+    height: 100%;
+}
+
+
+
+
+/* Koulutussivu ends here */
+
+/* Responsiivisuus */
+@media only screen and (max-width: 768px) {
+    .card img {
+        display: none;
+    }
+}
