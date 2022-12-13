@@ -79,10 +79,43 @@ body {
 .card h5 {
     padding-bottom: 15px;
 }
-
-
-
 /* Koulutussivu ends here */
+
+/* Työt starts here */
+.work-main {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    margin-top: 100px;
+}
+
+.accordion {
+    width: 50%;
+}
+
+.accordion-item {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.accordion button{
+    background-color: rgb(39, 39, 39);
+    border-bottom: 1px solid black;
+}
+
+.accordion-body, .accordion button {
+    color: white;
+}
+
+
+.accordion-collapse  {
+    background-color: rgb(39, 39, 39);
+}
+
+
+
+
+/* Työt ends here */
 
 /* Responsiivisuus */
 
