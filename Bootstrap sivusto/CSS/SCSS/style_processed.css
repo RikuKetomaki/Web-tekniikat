@@ -103,7 +103,8 @@ a > .btn {
 .work-main .accordion .accordion-item .accodrion-header {
   border-bottom: 10px solid black;
 }
-.work-main .accordion .accordion-item [type~=button] {
+
+[type~=button] {
   background-color: rgb(39, 39, 39);
   color: white;
 }
