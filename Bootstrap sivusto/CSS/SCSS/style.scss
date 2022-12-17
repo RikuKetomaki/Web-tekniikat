@@ -40,9 +40,13 @@ body {
     }
 }
 
+h5 + p {
+    padding-top: 10px;
+}
+
 /* Carousel ends here */
 /* Buttons start here */
-.etusivu-buttons {
+.change-site-buttons {
     display: flex;
     justify-content: center;
     padding-top: 60px;
@@ -77,9 +81,6 @@ a > .btn {
         @include content();
         margin: 30px;
         height: 100%;
-        h5 {
-            padding-bottom: 15px;
-        }
     }
 }
 
@@ -109,7 +110,7 @@ a > .btn {
             .accodrion-header {
                 border-bottom: 10px solid $borderColor;
             }
-            button{
+            [type~=button]{
                 @include content();
             }           
         }
