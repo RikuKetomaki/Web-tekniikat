@@ -1,3 +1,8 @@
+// Variables
+$contentBackround: rgb(39, 39, 39);
+$textColor: white;
+$borderColor: black;
+
 body {
     margin: 0px;
     background-color: rgb(57, 56, 61);
@@ -19,7 +24,7 @@ body {
         width: 70vw;
         max-width: 1280px;
         .slide-text {
-            background-color: rgb(39, 39, 39);
+            background-color: $contentBackround;
             width: max-content;
             display: inline-block;
             padding: 20px;
@@ -39,8 +44,8 @@ body {
 
 .btn {
     width: 150px;
-    border: 1px solid black;
-    background-color: rgb(39, 39, 39);
+    border: 1px solid $borderColor;
+    background-color: $contentBackround;
 }
 
 #leftButton {
@@ -64,13 +69,13 @@ body {
     justify-content: center;
     .card {
         margin: 30px; 
-        background-color: rgb(39, 39, 39);
+        background-color: $contentBackround;
         height: 100%;
         p {
-            color: white;
+            color: $textColor;
         }
         h5 {
-            color: white;
+            color: $textColor;
             padding-bottom: 15px;
         }
     }
@@ -87,7 +92,7 @@ body {
     .accordion {
         width: 50%;
         .accordion-item {
-            border: 1px solid black;
+            border: 1px solid $borderColor;
             :first-child {
                 border-top-right-radius: 0px;
                 border-top-left-radius: 0px;
@@ -97,17 +102,17 @@ body {
                 border-bottom-left-radius: 0px;
             }
             .accordion-collapse  {
-                background-color: rgb(39, 39, 39);
+                background-color: $contentBackround;
                 .accordion-body {
-                    color: white;
+                    color: $textColor;
                 }
             } 
             .accodrion-header {
-                border-bottom: 10px solid black;
+                border-bottom: 10px solid $borderColor;
             }
             button{
-                background-color: rgb(39, 39, 39);
-                color: white;
+                background-color: $contentBackround;
+                color: $textColor;
             }           
         }
         
