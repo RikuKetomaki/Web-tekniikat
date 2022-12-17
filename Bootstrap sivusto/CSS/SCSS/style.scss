@@ -109,14 +109,15 @@ a > .btn {
             } 
             .accodrion-header {
                 border-bottom: 10px solid $borderColor;
-            }       
+            }
+            [type~=button]{
+                @include content();
+            }    
         }
         
     }
 }
-[type~=button]{
-    @include content();
-}    
+
 /* Työt ends here */
 
 /* Responsiivisuus */
