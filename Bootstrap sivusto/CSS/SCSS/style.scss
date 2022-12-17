@@ -3,6 +3,12 @@ $contentBackround: rgb(39, 39, 39);
 $textColor: white;
 $borderColor: black;
 
+// Mixins
+@mixin content () {
+    background-color: $contentBackround;
+    color: $textColor;
+}
+
 body {
     margin: 0px;
     background-color: rgb(57, 56, 61);
@@ -43,9 +49,9 @@ body {
 }
 
 .btn {
+    @include content();
     width: 150px;
     border: 1px solid $borderColor;
-    background-color: $contentBackround;
 }
 
 #leftButton {
@@ -68,14 +74,10 @@ body {
     margin-top: 100px;
     justify-content: center;
     .card {
-        margin: 30px; 
-        background-color: $contentBackround;
+        @include content();
+        margin: 30px;
         height: 100%;
-        p {
-            color: $textColor;
-        }
         h5 {
-            color: $textColor;
             padding-bottom: 15px;
         }
     }
@@ -102,17 +104,13 @@ body {
                 border-bottom-left-radius: 0px;
             }
             .accordion-collapse  {
-                background-color: $contentBackround;
-                .accordion-body {
-                    color: $textColor;
-                }
+                @include content();
             } 
             .accodrion-header {
                 border-bottom: 10px solid $borderColor;
             }
             button{
-                background-color: $contentBackround;
-                color: $textColor;
+                @include content();
             }           
         }
         

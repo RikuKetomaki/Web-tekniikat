@@ -38,9 +38,10 @@ body {
 }
 
 .btn {
+  background-color: rgb(39, 39, 39);
+  color: white;
   width: 150px;
   border: 1px solid black;
-  background-color: rgb(39, 39, 39);
 }
 
 #leftButton {
@@ -63,15 +64,12 @@ body {
   justify-content: center;
 }
 .main .card {
-  margin: 30px;
   background-color: rgb(39, 39, 39);
+  color: white;
+  margin: 30px;
   height: 100%;
 }
-.main .card p {
-  color: white;
-}
 .main .card h5 {
-  color: white;
   padding-bottom: 15px;
 }
 
@@ -99,8 +97,6 @@ body {
 }
 .work-main .accordion .accordion-item .accordion-collapse {
   background-color: rgb(39, 39, 39);
-}
-.work-main .accordion .accordion-item .accordion-collapse .accordion-body {
   color: white;
 }
 .work-main .accordion .accordion-item .accodrion-header {
